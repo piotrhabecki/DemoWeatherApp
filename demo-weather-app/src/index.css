@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+
+  --text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+
+  --transition: all 400ms ease;
+}
+
+body {
+  font-family: "montseratt", sans-serif;
+}
+
+.app {
+  background-image: url("./assets/cold-background-start.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+
+.app.warm {
+  background-image: url("./assets/ilustration-warm.png");
+}
+
+.app.cold {
+  background-image: url("./assets/ilustration-cold.png");
+}
+
+.app.rain {
+  background-image: url("./assets/ilustration-rain.png");
+}
+
+main {
+  min-height: 100vh;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.397)
+  );
+}
+
+.search__box {
+  width: 100%;
+  margin: 0 0 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.search__box .saerchbar {
+  width: 90%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 0px 0px 16px 16px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: 31313131;
+  font-size: 20px;
+
+  transition: 0.4 ease;
+}
+
+.search__box .saerchbar:focus {
+  background-color: var(--color-white);
+}
+
+.location__box .location {
+  color: var(--color-white);
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.location__box .date {
+  color: var(--color-white);
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
+
+.weather__box {
+  text-align: center;
+}
+
+.weather__box__forecast {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  padding-top: 20px;
+
+  padding: 0 5px 0 5px;
+}
+
+.weather__box__forecast .forecast__element {
+
+  padding: 0px 10px 0px 10px;
+  background-color: var(--color-light);
+
+  color: var(--color-white);
+
+  text-shadow: var(--text-shadow);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather__box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: var(--color-light);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+
+  color: var(--color-white);
+  font-size: 102px;
+  font-weight: 900;
+
+  text-shadow: var(--text-shadow);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather__box .weather {
+  color: var(--color-white);
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.next__day__info {
+  color: var(--color-white);
+  padding-top: 20px;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.weather__symbol {
+  filter: brightness(0) invert(1);
+}
+
+/* ================ MEDIA QUERIES (MEDIUM DEVICES) ================== */
+
+@media screen and (max-width: 1024px) {
+  .app {
+    background-size: 100vw 100vh;
+  }
+}
+
+/* ================ MEDIA QUERIES (wide above 1024 screen) ================== */
+
+@media screen and (min-width: 1024px) {
+  .search__box .saerchbar {
+    width: 50%;
+  }
+}
+
+/* ================ MEDIA QUERIES (wide screen aboce 1090) ================== */
+
+@media screen and (min-width: 1090px) {
+  .search__box .saerchbar {
+    width: 20%;
+  }
+}
