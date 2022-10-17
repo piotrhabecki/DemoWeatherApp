@@ -167,13 +167,14 @@ main {
   filter: brightness(0) invert(1);
 }
 
-.scrool__down {
+.about__page {
   position: absolute;
   right: -1.5rem;
   bottom: 5rem;
   transform: rotate(-90deg);
   font-weight: 400;
   font-size: 1.5rem;
+  color: var(--color-white);
 }
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================== */
@@ -192,10 +193,24 @@ main {
   }
 }
 
-/* ================ MEDIA QUERIES (wide screen aboce 1090) ================== */
+/* ================ MEDIA QUERIES (wide screen above 1090) ================== */
 
 @media screen and (min-width: 1090px) {
   .search__box .saerchbar {
     width: 20%;
   }
 }
+
+/* ========================== SMALL PHONE DEVICES ============================= */
+
+@media screen and (max-width: 380px) {
+  .about__page {
+    font-weight: 600;
+    font-size: 1rem;
+    transform: rotate(0deg);
+    position: sticky;
+    top: 100vh;
+  }
+  
+}
+

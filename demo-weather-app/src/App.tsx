@@ -88,7 +88,7 @@ function App() {
         ) : (
           <></>
         )}
-        <a href="https://testquest.vercel.app/" className="scrool__down">
+        <a href="https://testquest.vercel.app/" className="about__page">
           Test Quest
         </a>
       </main>
