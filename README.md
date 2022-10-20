@@ -14,7 +14,7 @@
 This is the weather app you need. 
 It's only for showcase purposes.
 
-The application is build with React and styled with CSS.
+The application is built with React and styled with CSS.
 
 It is using https://openweathermap.org/ as data source for weather.
 
@@ -29,8 +29,8 @@ Enjoy!
 
 ## About the author
 
-I am an test engineer who is learning new skills in frontend development.
-If you want to know more about me or contact with me the please visit: 
+I am a test engineer who is learning new skills in frontend development. If you want to know more about me or contact me then please visit:
+
 <div align="center">
 https://www.testquest.pl/
 </div>
