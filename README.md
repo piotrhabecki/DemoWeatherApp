@@ -30,6 +30,8 @@ Enjoy! ☀️
 ### Live demo
 https://piotrhabecki.github.io/DemoWeatherApp/ ⛅
 
+<sub> Try it on your phone as well 📱 </sub>
+
 ## About the author
 
 I am a test engineer who is learning new skills in frontend development. If you want to know more about me or contact me then please visit:
