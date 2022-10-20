@@ -25,10 +25,10 @@ If you want to run the code you just have to:
 - npm install
 - npm start
 
-Enjoy!
+Enjoy! ☀️
 
 ### Live demo
-https://piotrhabecki.github.io/DemoWeatherApp/
+https://piotrhabecki.github.io/DemoWeatherApp/ ⛅
 
 ## About the author
 
@@ -39,7 +39,7 @@ https://www.testquest.pl/
 </div>
 
 ### If you like it
-If you like the application, or you're using the demo or maybe it helped you with something then buy me a coffee ;)
+If you like the application, or you're using the demo or maybe it helped you with something then buy me a coffee 😉
 <div align="center">
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/piotrhabecZ)  
