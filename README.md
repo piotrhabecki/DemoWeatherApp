@@ -27,6 +27,9 @@ If you want to run the code you just have to:
 
 Enjoy!
 
+### Live demo
+https://piotrhabecki.github.io/DemoWeatherApp/
+
 ## About the author
 
 I am a test engineer who is learning new skills in frontend development. If you want to know more about me or contact me then please visit:
